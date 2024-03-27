@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+}
+#main{
+    width:600px;
+    height:400px;
+    background-color: white;
+    border-radius: 12px;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Centering the main div */
+}
+img{
+    width:300px;
+    height:400px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add some space between the image and text */
+}
+
+#h1{
+    font-size: 31px;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#price{
+    color: rgba(54, 120, 54, 0.84);
+}
+p{
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5rem;
+    padding-right: 20px;
+}
+
+button{
+    background-color: rgba(54, 120, 54, 0.84);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    height:47px;
+    width: 260px;
+}
